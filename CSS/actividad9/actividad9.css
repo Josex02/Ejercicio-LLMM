@@ -1,0 +1,49 @@
+html {
+    font-family: sans-serif;
+}
+
+.fichero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 0px;
+    padding: 5px;
+}
+
+.fichero > p {
+    text-align: justify;
+    width: 200px;
+    margin: 10px;
+    text-align: justify;
+    border: black 2px solid;
+}
+
+.fichero2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fichero2 > p {
+    text-align: justify;
+    width: 200px;
+    margin: 10px;
+    text-align: justify;
+    border: black 2px solid;
+}
+
+.fichero3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fichero3 > p {
+    text-align: justify;
+    width: 200px;
+    margin: 10px;
+    text-align: justify;
+    border: black 2px solid;
+}

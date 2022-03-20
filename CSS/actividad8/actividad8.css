@@ -1,0 +1,156 @@
+.contenedor {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: #E0E0e0;
+    margin: auto;
+  } 
+  .uno {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;  
+    font-size: 40px;
+  }
+  .dos {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;  
+    font-size: 40px;
+  }
+  .tres {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;  
+    font-size: 40px;
+  }
+  .cuatro {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    margin: 10px;  
+    font-size: 40px;
+  }
+  .s_uno {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    width: 230px;
+    height: 150px;
+    background-color: blue;
+    font-size: 40px;
+  }
+  .s_dos {
+    position: absolute;
+    bottom: 75px;
+    left: 50px;
+    width: 135px;
+    height: 115px;
+    background-color: green;
+    font-size: 40px;
+  }
+  .s_tres {
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    width: 180px;
+    height: 150px;
+    background-color: yellow;
+    font-size: 40px;
+  }
+  .s_cuatro {
+    position: absolute;
+    bottom: 25px;
+    left: 170px;
+    width: 210px;
+    height: 90px;
+    background-color: red;
+    font-size: 40px;
+    z-index: 2;
+  }
+.junto_uno {
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    font-size: 40px;
+    background-color: blue;
+    bottom: 50px;
+    left: 70px;
+}
+.junto_dos {
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    background-color: black;
+    bottom: 50px;
+    left: 150px;
+    font-size: 40px;
+}
+.junto_tres {
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    background-color: orange;
+    bottom: 50px;
+    left: 230px;
+    font-size: 40px;
+}
+.junto_cuatro {
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    background-color: yellow;
+    bottom: 50px;
+    left: 310px;
+    font-size: 40px;
+}
+.cruz_uno {
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    background-color: green;
+    font-size: 40px;
+    bottom: 50px;
+    left: 45px;
+}
+.cruz_dos {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    background-color: pink;
+    font-size: 40px;
+    top: 70px;
+    left: 45px;
+}
+.cruz_tres {
+    position: absolute;
+    width: 100px;
+    height: 290px;
+    background-color: khaki;
+    top: 30px;
+    left: 100px;
+    font-size: 40px;
+}
+.cruz_cuatro {
+    position: absolute;
+    width: 100px;
+    height: 290px;
+    background-color: sienna;
+    top: 30px;
+    left: 300px;
+    font-size: 40px;
+}
