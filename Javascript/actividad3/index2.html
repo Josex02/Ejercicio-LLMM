@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js3.js">
+    </script>
+</head>
+<body>
+    <h2>Imágenes de coches</h2>
+ 
+    <p>Ejemplo de JavaScript en el que cambiamos las imágenes mostradas el pulsar un botón</p>
+     
+    <img id="ImgCoche" src="coche1.jpg" style="width: 100%;"><br>    
+        <select id="coches" onchange="cambiaCoche(document.getElementById('coches').value)">
+            <option value="coche1.jpg">Coche 1</option>
+            <option value="coche2.jpg">Coche 2</option>
+            <option value="coche3.jpg">Coche 3</option>
+            <option value="coche4.jpg">Coche 4</option>
+            <option value="coche5.jpg">Coche 5</option>
+            <option value="coche6.jpg">Coche 6</option>
+          </select>
+    
+    <h2>Imágenes de SpiderMan</h2>
+ 
+    <p>Ejemplo de JavaScript en el que cambiamos las imágenes mostradas el pulsar un botón</p>
+     
+    <img id="Spiderman" src="spiderman1.jpg" style="height:500px"><br>
+     
+    <select id="spiderman" onchange="cambiaSpiderman(document.getElementById('spiderman').value)">
+        <option value="spiderman1.jpg">Spiderman 1</option>
+        <option value="spiderman2.jpg">Spiderman 2</option>
+        <option value="sipderman3.jpg">Spiderman 3</option>
+        <option value="sipderman4.jpg">Spiderman 4</option>
+        <option value="sipderman5.jpg">Spiderman 5</option>
+        <option value="spiderman6.jpg">Spiderman 6</option>
+      </select>
+</body>
+</html>
